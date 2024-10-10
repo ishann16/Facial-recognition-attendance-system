@@ -10,7 +10,7 @@ video_capture = cv2.VideoCapture(0)
 ishan_image = face_recognition.load_image_file("faces/ishan.jpeg")
 ishan_encoding= face_recognition.face_encodings(ishan_image)[0]
 
-registered_face_encodings=[ishan_encoding, bali_encoding, bindi_encoding]
+registered_face_encodings=[ishan_encoding]
 registered_face_names = ["Ishan"]
 
 students = registered_face_names.copy()
